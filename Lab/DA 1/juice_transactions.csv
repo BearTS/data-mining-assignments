@@ -1,0 +1,21 @@
+transaction_id,item
+1,"Strawberry Juice,Grape Juice"
+2,Pomegranate Juice
+3,Pineapple Juice
+4,"Tomato Juice,Lemon Juice,Mango Juice"
+5,"Lemon Juice,Apple Juice,Strawberry Juice"
+6,"Pomegranate Juice,Lemon Juice,Strawberry Juice"
+7,Cranberry Juice
+8,Mango Juice
+9,"Mango Juice,Strawberry Juice,Apple Juice"
+10,"Pineapple Juice,Cranberry Juice"
+11,"Grape Juice,Cranberry Juice"
+12,"Grape Juice,Lemon Juice"
+13,"Orange Juice,Mango Juice"
+14,"Mango Juice,Tomato Juice"
+15,"Pomegranate Juice,Grape Juice"
+16,"Cranberry Juice,Pomegranate Juice"
+17,"Pomegranate Juice,Pineapple Juice"
+18,"Cranberry Juice,Apple Juice,Mango Juice"
+19,"Orange Juice,Grape Juice,Apple Juice"
+20,"Cranberry Juice,Mango Juice,Lemon Juice"
