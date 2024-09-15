@@ -20,9 +20,9 @@ def random_accident_risk(traffic_volume):
         return random.choices(ACCIDENT_RISKS, weights=[0.5, 0.3, 0.2])[0]
 
 data = {
-    'RoadID': ROAD_IDS,
+    'Road ID': ROAD_IDS,
     'Length': [round(random.uniform(*LENGTH_RANGE), 1) for _ in range(NUM_RECORDS)],
-    'NumberofBends': [random.randint(*BENDS_RANGE) for _ in range(NUM_RECORDS)],
+    'Numberof_Bends': [random.randint(*BENDS_RANGE) for _ in range(NUM_RECORDS)],
     'Trafficvolume': [],
     'AccidentRisk': []
 }
