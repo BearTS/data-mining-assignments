@@ -1,0 +1,13 @@
+S.No,Income,Criminal Record,EXP Load,Approved?
+1,<30,No,1-5,Yes
+2,30-70,Yes,1,No
+3,30-70,No,1,No
+4,30-70,Yes,1-5,Yes
+5,30-70,No,>5,Yes
+6,30-70,Yes,1-5,No
+7,>70,Yes,>5,Yes
+8,>70,No,>5,No
+9,<30,Yes,1-5,No
+10,30-70,No,1-5,Yes
+11,30-70,No,1-5,No
+12,30-70,Yes,>5,Yes
