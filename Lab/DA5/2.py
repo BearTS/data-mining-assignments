@@ -69,6 +69,7 @@ def predict_admission(model, scaler, student_data):
     
     return prob
 
+print("Anuj Parihar 21BBS0162\n\n")
 df = pd.read_csv('2.csv')
 print("\nSample data shape:", df.shape)
 print("\nFirst few rows of the dataset:")
@@ -87,7 +88,6 @@ print(classification_report(y_test, y_pred))
 print("\nFeature Importance:")
 print(feature_importance)
 
-print("\nGenerating plots...")
 plot_results(model, X_test_scaled, y_test, y_pred, feature_importance)
 
 example_student = pd.DataFrame({

@@ -4,8 +4,6 @@ from statsmodels.tsa.arima.model import ARIMA
 from statsmodels.tsa.stattools import acf, pacf
 import matplotlib.pyplot as plt
 from datetime import datetime
-import warnings
-warnings.filterwarnings('ignore')
 
 def prepare_data(csv_path):
     df = pd.read_csv(csv_path)
@@ -43,13 +41,8 @@ def fit_arima_model(data):
 
 
 def analyze_stock_data(csv_path):
-    print("Loading and preparing data...")
     df = prepare_data(csv_path)
-    
-    print("Calculating moving averages...")
     moving_averages = calculate_moving_averages(df)
-    
-    print("Fitting ARIMA model...")
     arima_results, acf_values, pacf_values = fit_arima_model(df)
     summary = {
         'current_price': df['Price'].iloc[-1],
@@ -112,15 +105,14 @@ def plot_pacf_values(pacf_values):
     plt.show()
 
 
-# Main execution with separate plots
+
+print("Anuj Parihar 21BBS0162\n\n")
 df, mas, arima_results, acf_values, pacf_values, summary = analyze_stock_data('tata.csv')
 
-# Generate and save individual plots
 plot_price_and_moving_averages(df, mas)
 plot_acf_values(acf_values)
 plot_pacf_values(pacf_values)
 
-# Print summary
 print("\nAnalysis Summary:")
 print(f"Current Price: ₹{summary['current_price']:.2f}")
 print(f"Average Price: ₹{summary['avg_price']:.2f}")
