@@ -49,7 +49,7 @@ def calculate_moving_averages(df, window_sizes=[7, 14, 30]):
     
     return results
 
-def plot_moving_averages(results, window_sizes=[7, 14, 30]):
+def plot_moving_averages(results, window_sizes=[7, 14, 30]):Lab/DA5/DA5.docx
     sns.set_theme(style="whitegrid")
     
     plt.figure(figsize=(15, 8))

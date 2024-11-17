@@ -18,7 +18,7 @@ def generate_crime_dataset(start_date='2023-01-01', num_days=365):
     df = pd.DataFrame({
         'date': dates,
         'crime_count': np.round(crime_counts),
-        'location': 'Downtown'
+        'location': 'Delhi'
     })
     
     crime_types = ['Theft', 'Assault', 'Burglary', 'Vandalism', 'Robbery']
